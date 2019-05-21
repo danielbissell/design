@@ -1,0 +1,78 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url(https://images.unsplash.com/photo-1524260855046-f743b3cdad07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+display: table;
+  background-size: cover;
+background-attachment: fixed;
+
+}
+
+.hero  {
+   height: 100%;
+    width: 100%;
+  max-width: none;
+  vertical-align: middle;
+  display: table-cell;
+    text-align: center;
+
+}
+.content {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  text-shadow: 0px 0px 100px #000;
+    color: #F5F5F5;
+ font-size: 150%;
+}
+.btn{
+  border-radius: 10px;
+  border: solid 1.5px;
+  max-width: 200px;
+  margin: auto;
+}
+.btn:hover {
+  color: lightblue;
+  }
+
+.text {
+  margin: 10px;
+  line-height: 26pt;
+}
+
+
+      @media all and (max-width:500px){
+        .text {
+            line-height: 16pt;
+        }
+        .content {
+       font-size: 90%;
+      }
+        .btn{
+                max-width: 100px;
+        }
+        
+              .hero  {
+   height: auto;
+    width:100px;
+  vertical-align: middle;
+  display: table-cell;
+    text-align: center;
+
+      }
+
+
+  
+      
+  
+}
+      
